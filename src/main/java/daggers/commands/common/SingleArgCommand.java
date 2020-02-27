@@ -2,7 +2,7 @@ package daggers.commands.common;
 
 import java.util.List;
 
-abstract class SingleArgCommand implements Command {
+public abstract class SingleArgCommand implements Command {
     @Override
     public Command.Result handleInput(List<String> input) {
         return input.size() == 1 ? handleArg(input.get(0)) : Result.invalid();

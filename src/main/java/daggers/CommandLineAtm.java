@@ -1,6 +1,7 @@
 package daggers;
 
 import daggers.commands.common.Command;
+import daggers.components.DaggerCommandProcessorFactory;
 
 import java.util.Scanner;
 

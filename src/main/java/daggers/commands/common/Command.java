@@ -18,7 +18,7 @@ public interface Command {
             this.nestedCommandRouter = nestedCommandRouter;
         }
 
-        static Result enterNestedCommandSet(CommandRouter nestedCommandRouter) {
+        public static Result enterNestedCommandSet(CommandRouter nestedCommandRouter) {
             return new Result(Status.HANDLED, Optional.of(nestedCommandRouter));
         }
 

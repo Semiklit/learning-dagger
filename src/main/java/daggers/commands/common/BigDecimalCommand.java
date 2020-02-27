@@ -4,7 +4,7 @@ import daggers.modules.Outputter;
 
 import java.math.BigDecimal;
 
-abstract class BigDecimalCommand extends SingleArgCommand {
+public abstract class BigDecimalCommand extends SingleArgCommand {
 
     private final Outputter outputter;
 
